@@ -30,7 +30,6 @@ import (
 func main() {
 	// initialize configuration using environment variables
 	configuration.Init()
-
 	router := gin.Default()
 
 	// cors
@@ -55,4 +54,5 @@ func main() {
 
 	// listen on default free port
 	router.Run()
+
 }
